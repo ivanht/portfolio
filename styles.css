@@ -63,3 +63,17 @@ footer{border-top:1px solid var(--line);padding:22px max(6vw,24px);display:flex;
 .language-fluent .language-code{color:#8cb452;opacity:.35}
 @media(max-width:900px){.education-grid{grid-template-columns:1fr;gap:22px}}
 @media(max-width:700px){.credential-list{grid-template-columns:1fr}.course-list li{font-size:14px;padding:9px 12px}.skills-languages{padding:20px}.language-item{min-height:138px;padding:18px}.language-code{font-size:50px}.skills-languages-heading{align-items:flex-start;flex-direction:column;gap:4px}}
+
+/* Separate education and certification panels */
+.education-grid{grid-template-columns:.92fr 1.08fr;gap:24px;align-items:stretch}
+.education-grid>div:first-child{padding:22px;background:#eef2e8;border:1px solid #dfe5da;border-radius:4px}
+.education-grid>div:first-child>.eyebrow{margin-bottom:16px}
+.education-entry{background:#fff}
+.certifications-panel{padding:24px;background:#202b24;border:1px solid #202b24;border-radius:4px;color:#f5f7f2}
+.certifications-panel>.eyebrow{color:#c6e49b;margin-bottom:16px}
+.certifications-panel .credential-list{gap:9px}
+.certifications-panel .credential-list li{min-height:50px;padding:10px 12px;background:#303d34;border-color:#465449;color:#f5f7f2;font-size:13px}
+.certifications-panel .credential-list li::before{background:var(--green)}
+.course-list li{font-size:17px;font-weight:600;padding:11px 16px;background:#fff;border:1px solid #dfe5da}
+@media(max-width:900px){.education-grid{grid-template-columns:1fr;gap:16px}}
+@media(max-width:700px){.education-grid>div:first-child,.certifications-panel{padding:18px}.certifications-panel .credential-list{grid-template-columns:1fr}.course-list li{font-size:16px;padding:10px 14px}}

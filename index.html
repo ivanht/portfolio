@@ -6,7 +6,7 @@
   <meta name="description" content="Selected cloud, platform engineering, reliability, and software projects.">
   <meta name="theme-color" content="#f5f6f1">
   <title>Selected Projects</title>
-  <link rel="stylesheet" href="styles.css?v=about-svg-left-20261127">
+  <link rel="stylesheet" href="styles.css?v=courses-grouped-20261127">
 </head>
 <body>
   <header class="site-header">
@@ -170,12 +170,26 @@
         <p class="eyebrow">05 / COURSES</p>
         <h2 id="courses-title">Courses</h2>
       </div>
-      <ul class="chips course-list" aria-label="Courses">
-        <li>Terraform</li><li>Ansible</li><li>Jenkins</li><li>Kubernetes</li><li>OpenShift</li><li>Helm</li>
-        <li>MySQL</li><li>Oracle DB</li><li>Ceph</li><li>Kafka</li><li>AWS</li><li>Azure</li><li>OpenStack</li>
-        <li>AWS ECS</li><li>Solution Architect</li><li>Elastic Stack</li><li>Prometheus</li><li>Nagios</li>
-        <li>Certified SonicWall Systems Administrator (CSSA)</li><li>CCNA Prep (Cisco Certified Network Associate)</li><li>RH Satellite</li><li>Information Technology Infrastructure Library (ITIL) v3</li>
-      </ul>
+      <div class="courses-grid">
+        <article class="course-category">
+          <h3>Cloud &amp; platform engineering</h3>
+          <ul class="chips course-list" aria-label="Cloud and platform engineering courses">
+            <li>AWS</li><li>Azure</li><li>OpenStack</li><li>AWS ECS</li><li>Solution Architect</li><li>Kubernetes</li><li>OpenShift</li><li>Helm</li>
+          </ul>
+        </article>
+        <article class="course-category">
+          <h3>Infrastructure, networking &amp; operations</h3>
+          <ul class="chips course-list" aria-label="Infrastructure, networking, and operations courses">
+            <li>Terraform</li><li>Ansible</li><li>Jenkins</li><li>RH Satellite</li><li>Certified SonicWall Systems Administrator (CSSA)</li><li>CCNA Prep (Cisco Certified Network Associate)</li><li>Information Technology Infrastructure Library (ITIL) v3</li>
+          </ul>
+        </article>
+        <article class="course-category">
+          <h3>Data &amp; observability</h3>
+          <ul class="chips course-list" aria-label="Data and observability courses">
+            <li>MySQL</li><li>Oracle DB</li><li>Ceph</li><li>Kafka</li><li>Elastic Stack</li><li>Prometheus</li><li>Nagios</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
     <section class="project-section skills-section" id="skills" aria-labelledby="skills-title">

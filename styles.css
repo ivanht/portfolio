@@ -36,3 +36,30 @@ footer{border-top:1px solid var(--line);padding:22px max(6vw,24px);display:flex;
 :focus-visible{outline:3px solid #578b10;outline-offset:4px}
 @media(max-width:700px){.site-header{height:auto;min-height:64px;padding:12px 20px;align-items:flex-start;flex-direction:column;gap:8px}nav{gap:8px 15px;flex-wrap:wrap;justify-content:flex-start}nav a{font-size:11px}main{padding:0 20px}.intro{padding:82px 0 68px}.lede{font-size:17px}.about-copy{font-size:16px}.project-section{padding-bottom:68px}.project-grid,.side-grid{grid-template-columns:1fr}.project-featured{grid-column:auto}.education-grid{grid-template-columns:1fr;gap:32px}.skills-grid{grid-template-columns:1fr}.credential-list{grid-template-columns:1fr 1fr}.project-card{min-height:270px}.side-card{min-height:240px}footer{padding-inline:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Visual treatment for profile sections */
+.education-grid{grid-template-columns:.92fr 1.08fr;gap:28px}
+.education-entry{display:grid;grid-template-columns:46px 1fr;align-items:center;gap:16px;padding:21px;background:linear-gradient(135deg,#fff 0%,#fff 72%,#eef3e6 100%);border:1px solid #dfe5da;border-radius:4px;margin:0 0 12px}
+.education-entry h3{font-size:18px;margin:0 0 8px}
+.education-entry p{font-size:14px;line-height:1.5}
+.education-mark{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;background:#e1edcb;color:#52712d;font:500 11px var(--mono)}
+.credential-list{gap:10px}
+.credential-list li{display:flex;align-items:center;min-height:52px;padding:12px 14px;background:#fff;border:1px solid #dfe5da;border-radius:3px;font:500 12px var(--body)}
+.credential-list li::before{content:"";flex:0 0 8px;width:8px;height:8px;margin-right:11px;border-radius:50%;background:#8fba4d}
+.course-list li{font:500 15px var(--body);letter-spacing:.005em;padding:10px 15px;background:#fff;border:1px solid #dfe5da}
+.skill-group .chips li{font-size:11px}
+.skills-languages{margin-top:30px;padding:25px 28px;background:#e8efdf;border:1px solid #d9e3ce;border-radius:4px}
+.skills-languages-heading{display:flex;align-items:baseline;justify-content:space-between;gap:18px;margin-bottom:16px}
+.skills-languages-heading .eyebrow{margin:0}
+.skills-languages-heading h3{font-size:22px;margin:0}
+.language-grid{gap:14px}
+.language-item{position:relative;display:flex;align-items:center;justify-content:space-between;min-height:158px;padding:22px 24px;overflow:hidden;border:1px solid #d9ded5;border-radius:4px;background:#fff}
+.language-item h4{font:600 23px var(--display);letter-spacing:-.035em;line-height:1.15;margin:0 0 12px}
+.language-item.language-native{background:#202b24;color:#f5f7f2;border-color:#202b24}
+.language-kicker{font:400 10px var(--mono);letter-spacing:.1em;color:#82917f;margin:0 0 9px}
+.language-fluent .language-kicker{color:#6c7c65}
+.language-level{display:inline-block;padding:5px 10px;border-radius:2px;background:#d9efb5;color:#34452a;font:500 11px var(--mono)}
+.language-code{font:700 62px/1 var(--display);letter-spacing:-.08em;color:#a4d658;opacity:.9}
+.language-fluent .language-code{color:#8cb452;opacity:.35}
+@media(max-width:900px){.education-grid{grid-template-columns:1fr;gap:22px}}
+@media(max-width:700px){.credential-list{grid-template-columns:1fr}.course-list li{font-size:14px;padding:9px 12px}.skills-languages{padding:20px}.language-item{min-height:138px;padding:18px}.language-code{font-size:50px}.skills-languages-heading{align-items:flex-start;flex-direction:column;gap:4px}}

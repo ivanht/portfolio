@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Selected cloud, platform engineering, reliability, and software projects.">
+  <meta name="theme-color" content="#f5f6f1">
+  <title>Selected Projects</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Selected projects home">PROJECTS<span> / ENGINEERING</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#platforms">Platforms</a>
+      <a href="#side-projects">Side projects</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">CLOUD · PLATFORM · RELIABILITY</p>
+      <h1 id="page-title">Selected work</h1>
+      <p class="lede">A collection of platform engineering, cloud architecture, automation, and independent software projects.</p>
+      <a class="text-link" href="#platforms">Explore projects <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="project-section" id="platforms" aria-labelledby="platforms-title">
+      <div class="section-heading">
+        <p class="eyebrow">01 / PLATFORM ENGINEERING</p>
+        <h2 id="platforms-title">Cloud and infrastructure</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="card-top"><span class="number">01</span><span class="tag">CLOUD MIGRATION</span></div>
+          <h3>EC2 to Kubernetes platform migration</h3>
+          <p>Led the architecture and migration of a globally distributed platform from EC2 workloads to Amazon EKS across multiple AWS regions. Scope included containerization, orchestration, and migration of messaging, caching, CDN, object storage, and relational database components while maintaining SLA commitments.</p>
+          <ul class="chips" aria-label="Technologies"><li>AWS EKS</li><li>Terraform</li><li>Terragrunt</li><li>Ansible</li><li>OpenSearch</li><li>New Relic</li></ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="number">02</span><span class="tag">MULTI-REGION</span></div>
+          <h3>High-throughput cloud platform</h3>
+          <p>Designed and supported a three-tier AWS platform spanning five regions and serving millions of clients. Related platform work supported billions of HTTP requests per week across regions in Europe, the Americas, Asia-Pacific, and Africa.</p>
+          <ul class="chips" aria-label="Technologies"><li>AWS ECS</li><li>CloudFormation</li><li>Ansible</li><li>Jenkins</li><li>GitHub</li></ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="number">03</span><span class="tag">CONTAINER PLATFORMS</span></div>
+          <h3>Kubernetes and OpenShift platforms</h3>
+          <p>Designed and deployed container platforms for SaaS and custom workloads across public cloud and on-premises environments. Standardized provisioning and delivery with infrastructure as code, configuration management, and CI/CD workflows.</p>
+          <ul class="chips" aria-label="Technologies"><li>EKS</li><li>OpenShift</li><li>Terraform</li><li>Helm</li><li>Argo CD</li><li>GitHub Actions</li></ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="number">04</span><span class="tag">OBSERVABILITY</span></div>
+          <h3>Multi-region observability</h3>
+          <p>Built observability across multi-region cloud environments, combining application performance monitoring, metrics, logs, traces, and CDN telemetry to support platform operations and troubleshooting.</p>
+          <ul class="chips" aria-label="Technologies"><li>New Relic</li><li>Prometheus</li><li>Grafana</li><li>Elastic Stack</li><li>OpenSearch</li><li>CloudWatch</li></ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="number">05</span><span class="tag">AUTOMATION</span></div>
+          <h3>Distributed infrastructure automation</h3>
+          <p>Automated VMware cluster deployment workflows across more than 200 remote locations. Additional infrastructure work included multi-tier data centers and configuring Ubuntu Pro cloud images on Azure.</p>
+          <ul class="chips" aria-label="Technologies"><li>VMware</li><li>Linux</li><li>Azure</li><li>Ubuntu Pro</li><li>Automation</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="project-section side-section" id="side-projects" aria-labelledby="side-title">
+      <div class="section-heading">
+        <p class="eyebrow">02 / INDEPENDENT WORK</p>
+        <h2 id="side-title">Side projects</h2>
+        <p class="section-note">Source repositories for independent projects.</p>
+      </div>
+      <div class="side-grid">
+        <article class="side-card"><span class="side-icon" aria-hidden="true">↗</span><h3>Early Signal</h3><p>A machine learning project focused on detecting incorrect system and service behavior early.</p><ul class="chips" aria-label="Project focus"><li>Machine Learning</li><li>Systems</li></ul><a href="https://github.com/ivanht/earlysignal" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a></article>
+        <article class="side-card"><span class="side-icon" aria-hidden="true">↗</span><span class="tag status-tag">PRIVATE PERSONAL PROJECT · IN PROGRESS</span><h3>AI Walkers</h3><p>A local, game-like visualizer that represents Claude Code sessions as agents moving through a workspace as they read, edit, think, or wait.</p><ul class="chips" aria-label="Project focus"><li>Local tooling</li><li>Visualization</li></ul><a href="https://github.com/ivanht/ai-walkers" target="_blank" rel="noopener noreferrer">Repository (private) <span aria-hidden="true">↗</span></a></article>
+        <article class="side-card"><span class="side-icon" aria-hidden="true">↗</span><span class="tag status-tag">PRIVATE PERSONAL PROJECT</span><h3>Garage Doors</h3><p>A maintenance tracking web app for door records, service history, access roles, and upcoming inspection dates.</p><ul class="chips" aria-label="Technologies"><li>Django</li><li>MySQL</li><li>HTMX</li><li>Docker</li><li>Terraform</li></ul><a href="https://github.com/ivanht/garage-doors" target="_blank" rel="noopener noreferrer">Repository (private) <span aria-hidden="true">↗</span></a></article>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Selected project work</span><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>

@@ -77,3 +77,14 @@ footer{border-top:1px solid var(--line);padding:22px max(6vw,24px);display:flex;
 .course-list li{font-size:17px;font-weight:600;padding:11px 16px;background:#fff;border:1px solid #dfe5da}
 @media(max-width:900px){.education-grid{grid-template-columns:1fr;gap:16px}}
 @media(max-width:700px){.education-grid>div:first-child,.certifications-panel{padding:18px}.certifications-panel .credential-list{grid-template-columns:1fr}.course-list li{font-size:16px;padding:10px 14px}}
+
+
+/* AI-assisted side project workflow callout */
+.ai-workflow-note{display:grid;grid-template-columns:58px 1fr;gap:22px;align-items:start;margin:0 0 30px;padding:24px 28px;background:#202b24;color:#f5f7f2;border-left:4px solid var(--green);border-radius:3px}
+.ai-workflow-icon{width:50px;height:50px;display:grid;place-items:center;border:1px solid #56654d;border-radius:50%;color:var(--green);font:500 14px var(--mono);letter-spacing:.04em}
+.ai-workflow-kicker{margin:0 0 8px;color:#c6e49b;font:400 10px var(--mono);letter-spacing:.11em}
+.ai-workflow-copy>p:not(.ai-workflow-kicker){max-width:820px;margin:0;color:#d4ddd4;font-size:16px;line-height:1.55}
+.ai-workflow-copy strong{color:#fff;font-weight:600}
+.workflow-steps{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:16px 0 0;padding:0}
+.workflow-steps li{padding:6px 9px;border:1px solid #465449;border-radius:2px;color:#e0e8e0;font:400 10px var(--mono)}
+@media(max-width:700px){.ai-workflow-note{grid-template-columns:1fr;gap:14px;padding:20px}.ai-workflow-icon{width:42px;height:42px}.ai-workflow-copy>p:not(.ai-workflow-kicker){font-size:15px}}

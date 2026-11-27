@@ -88,3 +88,5 @@ footer{border-top:1px solid var(--line);padding:22px max(6vw,24px);display:flex;
 .workflow-steps{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:16px 0 0;padding:0}
 .workflow-steps li{padding:6px 9px;border:1px solid #465449;border-radius:2px;color:#e0e8e0;font:400 10px var(--mono)}
 @media(max-width:700px){.ai-workflow-note{grid-template-columns:1fr;gap:14px;padding:20px}.ai-workflow-icon{width:42px;height:42px}.ai-workflow-copy>p:not(.ai-workflow-kicker){font-size:15px}}
+
+.about-contact{margin:22px 0 0}.about-contact a{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;background:#202b24;color:#f5f7f2;border-radius:3px;text-decoration:none;font:500 12px var(--mono);letter-spacing:.03em}.about-contact a span{color:var(--green);font-size:15px}.about-contact a:hover{background:#344139}

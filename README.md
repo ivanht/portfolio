@@ -1,6 +1,6 @@
 # Projects portfolio
 
-A static, projects-only portfolio prepared for GitHub Pages. It contains anonymized professional project summaries and descriptions of three independent projects. It omits personal contact details, employers, clients, and profile links.
+A static, projects-only portfolio prepared for GitHub Pages. It contains anonymized professional project summaries, three independent projects, and sections for education, certifications, courses, skills, and languages. It omits personal contact details, employers, clients, and profile links.
 
 ## Publish with GitHub Pages
 
